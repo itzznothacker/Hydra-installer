@@ -2,6 +2,7 @@ echo "Installing Hydra Panel..."
 git clone https://github.com/hydren-dev/HydraPanel
 mv HydraPanel hydra
 cd hydra || exit
+nvm install npm
 npm install
 npm run seed
 npm run createUser
